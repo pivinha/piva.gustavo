@@ -1,15 +1,32 @@
 body, ul, li, p{
-    margin: 0px
+    margin: 0px;
     padding: 0px;
-    list-style: none;  /* tira a marcação do link(bolinha por exemplo) *\
+    list-style: none; /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
-    font-family: arial;
+    font-family: Arial;
 }
+
 /* defina o tamanho da imagem do logo - largura */
 .logo{
     width: 200px;
 }
 
-/* defina as caracteristicas da tag ancor *\
+/* defina as caractrísticas da TAG ancor */
 a{
-    
+    text-decoration: none; /* tira o sublinhado do link */
+    color: white; /* Cor do texto */
+}
+
+/* defina as carísticas do header */
+.header{
+    /*cor de fundo */
+}
+
+
+
+
+
+
+
+
+
