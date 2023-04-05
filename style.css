@@ -49,6 +49,55 @@ menu li a{
     
 }
 
+.flex {
+    min-height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+}
+/* Ajustando o tamanho da imagem */
 
+.imagem{
+    width: 400px;
+    height: auto;
 
+}
+ /* ajuste os itens da pagina */
+ 
+ .item{
+    display: flex;
+    /* justify-content:flex-end; */
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;    
+
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: azure;
+    padding: 15PX;
+    COLOR: black;
+    FONT-SIZE: 30PX:
+
+}
+
+.redesSOCIAIS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redelogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+    
+}
 
