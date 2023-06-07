@@ -6,11 +6,54 @@
     background-position: center;
     display: inline-block;
 }
+
  >.cabeçalho{
     background-color: var(--branco);
     display: flex;
     justify-self: space-between;
+    align-items: center;
+    position: relative;
  }
+
+ .container_imagem{
+    display: flex;
+    align-items: center;
+ }
+
+ .container_imagem{
+    padding: 1em;
+ }
+
+ .lista_menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+ }
+
+ .container_botao: :checked ~~.lista-menu{
+    display: block;
+ }
+
+ .lista-menu__titulo,
+ .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+ }
+
+ .lista-menu__titulo{
+    color: var(--laranja);
+ }
+ 
+ .lista-menu__link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clipe: text;
+    text-transform: uppercase;
+ }
+
+
 
 
 
