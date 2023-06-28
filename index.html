@@ -65,7 +65,31 @@
             <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre Acessibilidade"></div>
             
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+    <script>
+        const swiper = new swiper('.swiper',{
+            spaceBtween: 10,
+            slidesPerView: 3,
+            pagination:{
+            el: '.swiper-pagination',
+            type: 'bullets',
+            }
+        })
+    </script>
+
+
+
+
+
+
     
 </body>
 </html>
